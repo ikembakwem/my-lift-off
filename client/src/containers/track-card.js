@@ -13,7 +13,7 @@ const TrackCard = ({ track }) => {
 
   return (
     <CardContainer to={`track/${id}`}>
-      <CardContent>
+      <CardContent> 
         <CardImageContainer>
           <CardImage src={thumbnail} alt={title} />
         </CardImageContainer>
